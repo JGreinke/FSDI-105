@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    background: #D0E4F5 url("https://cdn1.vectorstock.com/i/thumb-large/98/75/elegant-floral-pattern-rose-gold-vector-31139875.jpg") repeat scroll 0 0;
+    color: white; 
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/*navigation bar*/
+.nav-btn{
+    background-color: rgb(30, 32, 32);
+    color: white; 
+    margin: 5px; 
+}
+.navBar{
+    margin: 5px 5px 5px 0px;
+    width: 96%;
+    padding-top: 3px;   
+    background-color: rgb(30, 32, 32);
+}
+#navBar{
+    display: none; 
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding-left: 15px; 
+    margin-top: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+a:hover{
+    background-color: white;
+    color: rgb(30, 32, 32); 
+    font-weight: 700; 
+    border: 2px solid rgb(30, 32, 32); 
+    text-shadow: 5px 4px 0px rgba(0,0,0,0.15), 2px 2px 0px #FFFFFF;
+    padding-right: 15px;
+}
+
+/*main section & form*/
+.control{
+    width:50%; 
+    padding-bottom: 15px;
+    text-align: center;
+}
+.form-control{
+    max-height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.521); 
+    font-size: 15px;
+    padding: 0; 
+    padding-left: 5px; 
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.color{
+    display: flex; 
+    justify-content: space-between;
+}
+.error{
+    border: 1px solid red; 
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 2rem; 
+    background-color:rgb(30, 32, 32); 
+    width: 40%; 
+    margin-left: 30%;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-shadow:0 0 5px #FFFFFF;
+}
+label, h6{
+    min-height: 15px; 
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.container{
+    background-color: rgba(53, 19, 19, 0.938);
+    width: 90%;
+    box-shadow: 0px 0px 30px 5px #000000;
+    padding-top: 25px;
+    padding-left: 30%;
+}
+.btn{
+    background-color:rgb(17, 17, 17); 
+    border: 2px solid white; 
+    margin-top: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.main-title{
+    font-size: 50px;
+}
+.main{
+    background-color: rgba(53, 19, 19, 0.938);
+    width: 90%;
+    box-shadow: 0px 0px 30px 5px #000000;
+    margin-left: 5%;
+    text-align: center;
+    padding: 20px; 
+}
+span{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow:0 0 2px #FFFFFF;
+}
+h5{
+    padding-top: 40px;
+    line-height: 40px;
+    padding-bottom: 40px;
+}
+.line{
+    border-bottom: 2px dotted white;
+    max-width: 80%; 
+    margin-left:10%; 
+}
+.icon{
+    padding-left: 24%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.login{
+    padding-top: 40px; 
+}
+
+/*table*/
+h2{
+    letter-spacing: 3px;
+    padding-bottom: 15px;
+}
+table{
+    border: 1px solid white; 
+    align-items: center;
+}
+th{
+    width: 150px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: rgb(30, 32, 32, .8);
+}
+td{
+    background-color: rgb(30, 32, 32, .5);
+}
+
+/*footer section*/
+.footer{
+    background-color: rgb(30, 32, 32);
+    color: rgba(255, 255, 255, 0.589); 
+    margin-top: 50px;
+    line-height: 0;
+    padding-top: 20px; 
+    padding-bottom: 5px;
+    font-size: 12px;
+    text-align: center;
+    border: 3px solid rgb(27, 27, 27); 
+    font-size: 15px;
+}
